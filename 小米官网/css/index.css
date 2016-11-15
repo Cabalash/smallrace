@@ -1,0 +1,1094 @@
+/*全局样式*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	display: block;
+}
+body{
+/*	min-width: 1226px;*/
+	height: 5180px;
+	border:1px solid black;
+/*	margin-left: auto;
+	margin-right: auto;*/
+}
+.container{
+	width: 1226px;
+	height: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*导航栏样式*/
+.site-topbar{
+	width: 100%;
+	height: 40px;
+	background-color: #333333;
+	border: 0px solid red;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+.site-topbar .topbar-nav{
+	width: 534px;
+	height: 40px;
+	border: 0px solid red;
+	float:left;
+	/*margin-left: 50px;*/
+}
+.site-topbar .topbar-cart{
+	width: 120px;
+	height: 40px;
+	border: 0px solid red;
+	float:right;
+	/*margin-right: 50px;*/
+}
+i{
+	width: 20px;
+	height: 20px;
+}
+.site-topbar .cart-menu{
+	width: 320px;
+	height: 100px;
+	border:1px solid #ccc;
+	display: none;
+}
+.site-topbar .topbar-info{
+	width: 74px;
+	height: 40px;
+	border: 0px solid red;
+	float: right;
+	margin-right: 40px;
+}
+a{
+	color: #b0b0b0;
+	text-decoration: none;
+	line-height: 40px;
+}
+a:hover{
+	color:#ffffff;
+}
+.sep{
+	color: #424242;
+	font-weight: bold;
+}
+
+/*下拉导航栏样式*/
+.site-header{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	border: 0px solid red;
+}
+.site-header .container{
+	width: 1226px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.site-header .header-logo .logo{
+	width: 55px;
+	height: 55px;
+	border: 0px solid red;
+	float: left;
+	margin: 22px 10px 0px 0px;
+}
+.site-header .header-logo .doodle{
+	width: 140px;
+	height: 55px;
+	border: 0px solid red;
+	float: left;
+	margin: 22px 10px 0px 0px;
+}
+.site-header .header-nav{
+	width: 650px;
+	height: 100px;
+	border: 0px solid red;
+	/*line-height: 100px;*/
+	float: left;
+	margin: 0px 10px 0px 18px;
+}
+.site-header .header-nav .nav-list{
+	list-style: none;
+}
+.site-header .header-nav .nav-item{
+	float: left;
+	margin-left: 25px; 
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.site-header .nav-item a{
+	display: block;
+	line-height: 100px;
+	color: #000;
+}
+.site-header .nav-item .link:hover{
+	color: #ff6700;
+}
+.site-header .header-search{
+	width: 295px;
+	height: 50px;
+	border: 1px solid #ccc;
+	float: right;
+	margin:25px 0px 0px 0px;
+}
+.site-header .header-search .search-text{
+	width: 200px;
+	height: 20px;
+	border: 1px solid #ccc;
+}
+
+
+/*隐藏区域*/
+.container{
+	margin-left: auto;
+	margin-right: auto;
+}
+.xiaomi-child,.hongmi-child,.pingban-child,.dianshi-child,.hezi-child,.luyouqi-child,.zhinengyingjian-child{
+	display: none;
+	clear: both;
+	position: absolute;
+	width: 100%;
+	height: 230px;
+	border: 0px solid red;
+	background: #fff;
+	border-top: 1px solid #e0e0e0;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	/*color: red;*/
+	left: 0px;
+}
+
+/*小米*/
+.xiaomi-child .container{
+	list-style: none;
+}
+.xiaomi-child .container li{
+	position: relative;
+	width: 205px;
+	height: 230px;
+	border: 0px solid red;
+	/*margin-left: 30px;*/
+	float: left;
+}
+.xiaomi-child .figure{
+	position: absolute;
+	left: 45px;
+	top:50px;
+}
+.xiaomi-child .title{
+	position: absolute;
+	left: 75px;
+	top: 140px;
+}
+.xiaomi-child .price{
+	position: absolute;
+	left: 75px;
+	top: 210px;
+	color: #ff6700;
+}
+
+/*红米*/
+.hongmi-child .container{
+	list-style: none;
+}
+.hongmi-child .container li{
+	position: relative;
+	width: 205px;
+	height: 230px;
+	border: 0px solid red;
+	/*margin-left: 30px;*/
+	float: left;
+}
+.hongmi-child .figure{
+	position: absolute;
+	left: 45px;
+	top:50px;
+}
+.hongmi-child .title{
+	position: absolute;
+	left: 75px;
+	top: 135px;
+}
+.hongmi-child .price{
+	position: absolute;
+	left: 80px;
+	top: 210px;
+	color: #ff6700;
+}
+
+/*平板*/
+.pingban-child .container{
+	list-style: none;
+}
+.pingban-child .container li{
+	position: relative;
+	width: 205px;
+	height: 230px;
+	border: 0px solid red;
+	/*margin-left: 30px;*/
+	float: left;
+}
+.pingban-child .figure{
+	position: absolute;
+	left: 45px;
+	top:50px;
+}
+.pingban-child .title{
+	position: absolute;
+	left: 20px;
+	top: 135px;
+	text-align: center;
+}
+/*.pingban-child .title a{
+	position: absolute;
+	display: block;
+	margin: auto;
+	top: 135px;
+	text-align: center;
+}*/
+.pingban-child .price{
+	position: absolute;
+	left: 75px;
+	top: 210px;
+	color: #ff6700;
+}
+
+/*电视*/
+.dianshi-child .container{
+	list-style: none;
+}
+.dianshi-child .container li{
+	position: relative;
+	width: 200px;
+	height: 230px;
+	border: 0px solid red;
+	/*margin-left: 10px;*/
+	float: left;
+}
+.dianshi-child .figure{
+	position: absolute;
+	left: 15px;
+	top:50px;
+}
+.dianshi-child .title{
+	position: absolute;
+	left: 55px;
+	top: 135px;
+}
+.dianshi-child .price{
+	position: absolute;
+	left: 75px;
+	top: 210px;
+	color: #ff6700;
+}
+
+/*盒子*影音*/
+.hezi-child .container{
+	list-style: none;
+}
+.hezi-child .container li{
+	position: relative;
+	width: 200px;
+	height: 230px;
+	border: 0px solid red;
+	/*margin-left: 10px;*/
+	float: left;
+}
+.hezi-child .figure{
+	position: absolute;
+	left: 15px;
+	top:50px;
+}
+.hezi-child .title{
+	position: absolute;
+	left: 50px;
+	top: 135px;
+	/*color: #000;*/
+}
+.hezi-child .price{
+	position: absolute;
+	left: 75px;
+	top: 210px;
+	color: #ff6700;
+}
+
+/*路由器*/
+.luyouqi-child .container{
+	list-style: none;
+}
+.luyouqi-child .container li{
+	position: relative;
+	width: 200px;
+	height: 230px;
+	border: 0px solid red;
+	/*margin-left: 10px;*/
+	float: left;
+}
+.luyouqi-child .figure{
+	position: absolute;
+	left: 25px;
+	top:30px;
+}
+.luyouqi-child .title{
+	position: absolute;
+	left: 60px;
+	top: 135px;
+	/*color: #000;*/
+}
+.luyouqi-child .price{
+	position: absolute;
+	left: 85px;
+	top: 210px;
+	color: #ff6700;
+}
+
+/*智能硬件*/
+.zhinengyingjian-child .container{
+	list-style: none;
+}
+.zhinengyingjian-child .container li{
+	position: relative;
+	width: 200px;
+	height: 230px;
+	border: 0px solid red;
+	/*margin-left: 10px;*/
+	float: left;
+}
+.zhinengyingjian-child .figure{
+	position: absolute;
+	left: 25px;
+	top:30px;
+}
+.zhinengyingjian-child .title{
+	position: absolute;
+	left: 60px;
+	top: 135px;
+	/*color: #000;*/
+}
+.zhinengyingjian-child .price{
+	position: absolute;
+	left: 85px;
+	top: 210px;
+	color: #ff6700;
+}
+
+/*右侧悬浮导航样式*/
+.home-hero-container{
+	width: 100%;
+	height: 460px;
+	border: 0px solid red;
+}
+.home-hero-container .container{
+	width: 1226px;
+	height: 460px;
+	z-index: -1;
+	background: #ccc url(../images/bigpic1.jpg) no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+.home-hero-container .container .home-hero-slider{
+	position: relative;
+	width: 235px;
+	height: 460px;
+	border: 0px solid pink;
+	background: rgba(80,82,84,0.9);
+	float: left;
+}
+.home-hero-container .home-hero-slider .categoryList{
+	list-style: none;
+	margin-top: 21px;
+	/*color: white;*/
+}
+.home-hero-container .home-hero-slider .category-item{
+	
+}
+.home-hero-container .home-hero-slider .title{
+	display: block;
+	padding-left: 30px;
+	height: 42px;
+	border: 0px solid green;
+	line-height: 42px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: white;
+}
+.home-hero-container .title img{
+	width: 20px;
+	height: 20px;
+	border: 0px solid red;
+	/*margin-top: 10px;*/
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+/*隐藏大图*/
+.home-hero-container .container .pic img{
+	display: none;
+	position: absolute;
+}
+.home-hero-container .container .list{
+	width:120px;
+	height:10px;
+	list-style-type:none;
+	position:absolute;
+	/*background:rgba(0,0,0,0.3);*/
+	/*border-radius:10px;*/
+	right:70px;
+	bottom:65px;
+}
+.home-hero-container .container .list li{
+	width:6px;
+	height:6px;
+	border:1px solid #989898;
+	background: #858789;
+	box-shadow: 1px 1px 5px #888888;
+	float:left;
+	border-radius:6px;
+	margin:1px 13px 0px 0px;
+}
+.home-hero-container .container .list .active{
+	background:#eee;
+}
+
+
+/*手机 平板 电话卡*/
+.home-hero-container .container .right1{
+	position: relative;
+}
+.home-hero-container .home-hero-slider .children1{
+	display: none;
+	position: absolute;
+	width: 535px;
+	height: 458px;
+	border: 0px solid red;
+	border-top: 1px solid #e0e0e0;
+	background: #fff;
+	/*float: left;*/
+	margin-top: -64px;
+	margin-left: 235px;
+	-webkit-box-shadow: 3px 3px 3px #ccc;
+  	-moz-box-shadow: 3px 3px 3px #ccc;
+  	box-shadow: 2px 5px 5px #ccc;
+}
+.home-hero-container .child1{
+	width: 265px;
+	height: 458px;
+	border: 0px solid red;
+	list-style: none;
+	float: left;
+}
+.home-hero-container .children1 .list1{
+	float: left;
+}
+.home-hero-container .children1 .star-goods{
+	position: relative;
+	width: 265px;
+	height: 75px;
+	border: 0px solid green;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+}
+.home-hero-container .star-goods img{
+	position: absolute;
+	float: left;
+	left: 30px;
+	top: 15px;
+} 
+.home-hero-container .star-goods p{
+	position: absolute;
+	float: left;
+	left: 75px;
+	top: 25px;
+}
+.home-hero-container .children1 .buy{
+	position: absolute;
+	width: 60px;
+	height: 24px;
+	left: 195px;
+	top: 20px;
+	float: left;
+	border: 1px solid #f25807;
+	line-height: 24px;
+	text-align: center;
+	color: #f25807;
+}
+
+/*电视 盒子*/
+.home-hero-container .container .right2{
+	position: relative;
+}
+.home-hero-container .home-hero-slider .children2{
+	display: none;
+	position: absolute;
+	width: 802px;
+	height: 458px;
+	border: 0px solid red;
+	border-top: 1px solid #e0e0e0;
+	background: #fff;
+	/*float: left;*/
+	margin-top: -106px;
+	margin-left: 235px;
+	-webkit-box-shadow: 3px 3px 3px #ccc;
+  	-moz-box-shadow: 3px 3px 3px #ccc;
+  	box-shadow: 2px 5px 5px #ccc;
+}
+.home-hero-container .child1{
+	width: 265px;
+	height: 458px;
+	border: 0px solid red;
+	list-style: none;
+	float: left;
+}
+.home-hero-container .children2 .list1{
+	float: left;
+}
+.home-hero-container .children2 .star-goods{
+	position: relative;
+	width: 265px;
+	height: 75px;
+	border: 0px solid green;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+}
+.home-hero-container .children2 .star-goods img{
+	position: absolute;
+	float: left;
+	left: 30px;
+	top: 22px;
+} 
+.home-hero-container .children2 .star-goods p{
+	position: absolute;
+	float: left;
+	left: 85px;
+	top: 25px;
+}
+/*.home-hero-container .children2 .buy{
+	position: absolute;
+	width: 60px;
+	height: 24px;
+	left: 195px;
+	top: 20px;
+	float: left;
+	border: 1px solid #f25807;
+	line-height: 24px;
+	text-align: center;
+	color: #f25807;
+}*/
+
+/*路由器 智能硬件*/
+.home-hero-container .container .right3{
+	position: relative;
+}
+.home-hero-container .home-hero-slider .children3{
+	display: none;
+	position: absolute;
+	width: 802px;
+	height: 458px;
+	border: 0px solid red;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	/*float: left;*/
+	margin-top: -148px;
+	margin-left: 235px;
+	-webkit-box-shadow: 3px 3px 3px #ccc;
+  	-moz-box-shadow: 3px 3px 3px #ccc;
+  	box-shadow: 2px 5px 5px #ccc;
+}
+.home-hero-container .child1{
+	width: 265px;
+	height: 458px;
+	border: 0px solid red;
+	list-style: none;
+	float: left;
+}
+.home-hero-container .children3 .list1{
+	float: left;
+}
+.home-hero-container .children3 .star-goods{
+	position: relative;
+	width: 265px;
+	height: 75px;
+	border: 0px solid green;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+}
+.home-hero-container .children3 .star-goods img{
+	position: absolute;
+	float: left;
+	left: 30px;
+	top: 22px;
+} 
+.home-hero-container .children3 .star-goods p{
+	position: absolute;
+	float: left;
+	left: 85px;
+	top: 30px;
+}
+/*.home-hero-container .children3 .buy{
+	position: absolute;
+	width: 60px;
+	height: 24px;
+	left: 195px;
+	top: 20px;
+	float: left;
+	border: 1px solid #f25807;
+	line-height: 24px;
+	text-align: center;
+	color: #f25807;
+}*/
+
+/*移动电源 插线板*/
+.home-hero-container .container .right4{
+	position: relative;
+}
+.home-hero-container .home-hero-slider .children4{
+	display: none;
+	position: absolute;
+	width: 265px;
+	height: 458px;
+	border: 0px solid red;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	/*float: left;*/
+	margin-top: -190px;
+	margin-left: 235px;
+	-webkit-box-shadow: 3px 3px 3px #ccc;
+  	-moz-box-shadow: 3px 3px 3px #ccc;
+  	box-shadow: 2px 5px 5px #ccc;
+}
+.home-hero-container .child1{
+	width: 265px;
+	height: 458px;
+	border: 0px solid red;
+	list-style: none;
+	float: left;
+}
+.home-hero-container .children4 .list1{
+	float: left;
+}
+.home-hero-container .children4 .star-goods{
+	position: relative;
+	width: 265px;
+	height: 75px;
+	border: 0px solid green;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+}
+.home-hero-container .children4 .star-goods img{
+	position: absolute;
+	float: left;
+	left: 30px;
+	top: 17px;
+} 
+.home-hero-container .children4 .star-goods p{
+	position: absolute;
+	float: left;
+	left: 85px;
+	top: 30px;
+}
+/*.home-hero-container .children5 .buy{
+	position: absolute;
+	width: 60px;
+	height: 24px;
+	left: 195px;
+	top: 20px;
+	float: left;
+	border: 1px solid #f25807;
+	line-height: 24px;
+	text-align: center;
+	color: #f25807;
+}*/
+
+/*耳机 音箱*/
+.home-hero-container .container .right5{
+	position: relative;
+}
+.home-hero-container .home-hero-slider .children5{
+	display: none;
+	position: absolute;
+	width: 802px;
+	height: 458px;
+	border: 0px solid red;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	/*float: left;*/
+	margin-top: -232px;
+	margin-left: 235px;
+	-webkit-box-shadow: 3px 3px 3px #ccc;
+  	-moz-box-shadow: 3px 3px 3px #ccc;
+  	box-shadow: 2px 5px 5px #ccc;
+}
+.home-hero-container .child1{
+	width: 265px;
+	height: 458px;
+	border: 0px solid red;
+	list-style: none;
+	float: left;
+}
+.home-hero-container .children5 .list1{
+	float: left;
+}
+.home-hero-container .children5 .star-goods{
+	position: relative;
+	width: 265px;
+	height: 75px;
+	border: 0px solid green;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+}
+.home-hero-container .children5 .star-goods img{
+	position: absolute;
+	float: left;
+	left: 30px;
+	top: 22px;
+} 
+.home-hero-container .children5 .star-goods p{
+	position: absolute;
+	float: left;
+	left: 85px;
+	top: 30px;
+}
+/*.home-hero-container .children5 .buy{
+	position: absolute;
+	width: 60px;
+	height: 24px;
+	left: 195px;
+	top: 20px;
+	float: left;
+	border: 1px solid #f25807;
+	line-height: 24px;
+	text-align: center;
+	color: #f25807;
+}*/
+
+/*电池 存储卡*/
+.home-hero-container .container .right6{
+	position: relative;
+}
+.home-hero-container .home-hero-slider .children6{
+	display: none;
+	position: absolute;
+	width: 265px;
+	height: 458px;
+	border: 0px solid red;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	/*float: left;*/
+	margin-top: -274px;
+	margin-left: 235px;
+	-webkit-box-shadow: 3px 3px 3px #ccc;
+  	-moz-box-shadow: 3px 3px 3px #ccc;
+  	box-shadow: 2px 5px 5px #ccc;
+}
+.home-hero-container .child1{
+	width: 265px;
+	height: 458px;
+	border: 0px solid red;
+	list-style: none;
+	float: left;
+}
+.home-hero-container .children6 .list1{
+	float: left;
+}
+.home-hero-container .children6 .star-goods{
+	position: relative;
+	width: 265px;
+	height: 75px;
+	border: 0px solid green;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+}
+.home-hero-container .children6 .star-goods img{
+	position: absolute;
+	float: left;
+	left: 30px;
+	top: 22px;
+} 
+.home-hero-container .children6 .star-goods p{
+	position: absolute;
+	float: left;
+	left: 85px;
+	top: 30px;
+}
+/*.home-hero-container .children6 .buy{
+	position: absolute;
+	width: 60px;
+	height: 24px;
+	left: 195px;
+	top: 20px;
+	float: left;
+	border: 1px solid #f25807;
+	line-height: 24px;
+	text-align: center;
+	color: #f25807;
+}*/
+
+/*保护套 后盖*/
+.home-hero-container .container .right7{
+	position: relative;
+}
+.home-hero-container .home-hero-slider .children7{
+	display: none;
+	position: absolute;
+	width: 265px;
+	height: 458px;
+	border: 0px solid red;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	/*float: left;*/
+	margin-top: -316px;
+	margin-left: 235px;
+	-webkit-box-shadow: 3px 3px 3px #ccc;
+  	-moz-box-shadow: 3px 3px 3px #ccc;
+  	box-shadow: 2px 5px 5px #ccc;
+}
+.home-hero-container .child1{
+	width: 265px;
+	height: 458px;
+	border: 0px solid red;
+	list-style: none;
+	float: left;
+}
+.home-hero-container .children7 .list1{
+	float: left;
+}
+.home-hero-container .children7 .star-goods{
+	position: relative;
+	width: 265px;
+	height: 75px;
+	border: 0px solid green;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+}
+.home-hero-container .children7 .star-goods img{
+	position: absolute;
+	float: left;
+	left: 30px;
+	top: 22px;
+} 
+.home-hero-container .children7 .star-goods p{
+	position: absolute;
+	float: left;
+	left: 85px;
+	top: 30px;
+}
+/*.home-hero-container .children7 .buy{
+	position: absolute;
+	width: 60px;
+	height: 24px;
+	left: 195px;
+	top: 20px;
+	float: left;
+	border: 1px solid #f25807;
+	line-height: 24px;
+	text-align: center;
+	color: #f25807;
+}*/
+
+/*贴膜 其他配件*/
+.home-hero-container .container .right8{
+	position: relative;
+}
+.home-hero-container .home-hero-slider .children8{
+	display: none;
+	position: absolute;
+	width: 265px;
+	height: 458px;
+	border: 0px solid red;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	/*float: left;*/
+	margin-top: -358px;
+	margin-left: 235px;
+	-webkit-box-shadow: 3px 3px 3px #ccc;
+  	-moz-box-shadow: 3px 3px 3px #ccc;
+  	box-shadow: 2px 5px 5px #ccc;
+}
+.home-hero-container .child1{
+	width: 265px;
+	height: 458px;
+	border: 0px solid red;
+	list-style: none;
+	float: left;
+}
+.home-hero-container .children8 .list1{
+	float: left;
+}
+.home-hero-container .children8 .star-goods{
+	position: relative;
+	width: 265px;
+	height: 75px;
+	border: 0px solid green;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+}
+.home-hero-container .children8 .star-goods img{
+	position: absolute;
+	float: left;
+	left: 30px;
+	top: 22px;
+} 
+.home-hero-container .children8 .star-goods p{
+	position: absolute;
+	float: left;
+	left: 85px;
+	top: 30px;
+}
+/*.home-hero-container .children8 .buy{
+	position: absolute;
+	width: 60px;
+	height: 24px;
+	left: 195px;
+	top: 20px;
+	float: left;
+	border: 1px solid #f25807;
+	line-height: 24px;
+	text-align: center;
+	color: #f25807;
+}*/
+
+/*米兔 服装*/
+.home-hero-container .container .right9{
+	position: relative;
+}
+.home-hero-container .home-hero-slider .children9{
+	display: none;
+	position: absolute;
+	width: 265px;
+	height: 458px;
+	border: 0px solid red;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	/*float: left;*/
+	margin-top: -400px;
+	margin-left: 235px;
+	-webkit-box-shadow: 3px 3px 3px #ccc;
+  	-moz-box-shadow: 3px 3px 3px #ccc;
+  	box-shadow: 2px 5px 5px #ccc;
+}
+.home-hero-container .child1{
+	width: 265px;
+	height: 458px;
+	border: 0px solid red;
+	list-style: none;
+	float: left;
+}
+.home-hero-container .children9 .list1{
+	float: left;
+}
+.home-hero-container .children9 .star-goods{
+	position: relative;
+	width: 265px;
+	height: 75px;
+	border: 0px solid green;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+}
+.home-hero-container .children9 .star-goods img{
+	position: absolute;
+	float: left;
+	left: 30px;
+	top: 22px;
+} 
+.home-hero-container .children9 .star-goods p{
+	position: absolute;
+	float: left;
+	left: 85px;
+	top: 30px;
+}
+/*.home-hero-container .children9 .buy{
+	position: absolute;
+	width: 60px;
+	height: 24px;
+	left: 195px;
+	top: 20px;
+	float: left;
+	border: 1px solid #f25807;
+	line-height: 24px;
+	text-align: center;
+	color: #f25807;
+}*/
+
+/*箱包 其他周边*/
+.home-hero-container .container .right10{
+	position: relative;
+}
+.home-hero-container .home-hero-slider .children10{
+	display: none;
+	position: absolute;
+	width: 265px;
+	height: 458px;
+	border: 0px solid red;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	/*float: left;*/
+	margin-top: -442px;
+	margin-left: 235px;
+	-webkit-box-shadow: 3px 3px 3px #ccc;
+  	-moz-box-shadow: 3px 3px 3px #ccc;
+  	box-shadow: 2px 5px 5px #ccc;
+}
+.home-hero-container .child1{
+	width: 265px;
+	height: 458px;
+	border: 0px solid red;
+	list-style: none;
+	float: left;
+}
+.home-hero-container .children10 .list1{
+	float: left;
+}
+.home-hero-container .children10 .star-goods{
+	position: relative;
+	width: 265px;
+	height: 75px;
+	border: 0px solid green;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+}
+.home-hero-container .children10 .star-goods img{
+	position: absolute;
+	float: left;
+	left: 30px;
+	top: 22px;
+} 
+.home-hero-container .children10 .star-goods p{
+	position: absolute;
+	float: left;
+	left: 85px;
+	top: 30px;
+}
+/*.home-hero-container .children10 .buy{
+	position: absolute;
+	width: 60px;
+	height: 24px;
+	left: 195px;
+	top: 20px;
+	float: left;
+	border: 1px solid #f25807;
+	line-height: 24px;
+	text-align: center;
+	color: #f25807;
+}*/
